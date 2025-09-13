@@ -23,14 +23,13 @@
 }
 @media screen and (max-width:690px) {
     .logo{
-        width: 60px;
+        width: 40px;
     }
 }
 nav{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
-
 .nav-bar{
     color: rgb(141,197,156);
     text-decoration: none;
@@ -38,6 +37,12 @@ nav{
     cursor: pointer;
     height: 5px;
     font-weight: 550;
+}
+@media screen and (max-width:690px) {
+    .nav-bar{
+         font-weight: 100;
+         font-size: smaller;
+    }
 }
 .nav-bar:hover{
     color: rgb(164, 247, 185);
@@ -61,13 +66,20 @@ nav{
 
 
 .btn-1{
-    padding: 15px 23px;
+    padding: 10px 15px;
     margin-top: 1.5rem;
     background-color: rgb(0, 172, 0);
     color: aliceblue;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+@media screen and (max-width: 690px)  {
+    .btn-1{
+        padding-right: 8px;
+        padding-left: 8px;
+        font-size: 0.5rem;
+    }
 }
 .btn-1:hover{
     background-color: green;
@@ -123,6 +135,11 @@ nav{
     font-size: 80px;
     color: rgba(240, 248, 255, 0.877);
 }
+@media  screen and (max-width:690px) {
+    .the{
+        font-size: 50px;
+    }
+}
 .suie{
     font-size: 20px;
 }
@@ -163,6 +180,12 @@ nav{
     /*animation: slideFromLeft 1s ease forwards;
     opacity: 0;*/
 }
+@media screen and (max-width:690px)  {
+    .image{
+        height: 400px;
+        width: 260px;
+    }
+}
 /*@keyframes slideFromLeft {
     
     0%{
@@ -185,7 +208,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .feedback{
-        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
         margin-top: 4rem;
     }
 }
@@ -335,11 +360,16 @@ nav{
 }
 @media screen and (max-width:850px) {
     .head{
-        font-size: 3.5rem;
+        font-size: 1.6rem;
     }
 }
 .air{
     font-weight: bold;
+}
+@media screen and (max-width:690px) {
+    .air{
+        font-size: smaller;
+    }
 }
 
 .profile{
@@ -361,8 +391,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .cyrpto{
-        height: 330px;
-        width: 270px;
+        height: 230px;
+        width: 170px;
+        margin-left: 11rem;
     }
 }
 .hassan{
@@ -372,9 +403,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .hassan{
-        height: 330px;
-        width: 270px;
-        margin-right: 6rem;
+        height: 230px;
+        width: 170px;
+        margin-right: 10rem;
     }
 }
 .umair{
@@ -384,8 +415,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .umair{
-        height: 330px;
-        width: 270px;
+        height: 230px;
+        width: 170px;
+        margin-left: 11rem;
     }
 }
 .yahya{
@@ -395,9 +427,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .yahya{
-        height: 330px;
-        width: 270px;
-        margin-right: 6rem;
+        height: 230px;
+        width: 170px;
+        margin-right: 10rem;
     }
 }
 .team-2{
@@ -425,13 +457,21 @@ nav{
 }
 @media  screen and (max-width:900px) {
     .team-section{
-       margin-left: 0.5rem;
-       padding-bottom: 330px;
-       width: 440px
+       margin-left: 0.1rem;
+       padding-bottom: 100px;
+       width: 230px
     }
 }
 .what{
   color: aliceblue;
+}
+@media screen and (max-width:690px) {
+    .what{
+        font-size: smaller;
+        text-align: start;
+        margin-right: 5rem;
+        width: 100px;
+    }
 }
 .dec{
     width: 350px;
@@ -444,8 +484,8 @@ nav{
 @media screen and (max-width:900px) {
     .info{
         margin-left: 0.3rem;
-        font-size: smaller;
-        width: 200px;
+        font-size: 0.5rem;
+        width: 120px;
     }
 }
 .cards{
@@ -459,7 +499,9 @@ nav{
 }
 @media screen and (max-width:900px) {
     .cards{
+      gap: 1rem;
       margin-left: 0.5rem;
+      margin-top: 18rem;
     }
 }
 .dollar{
@@ -467,7 +509,7 @@ nav{
 }
 @media screen and (max-width:900px) {
     .dollar{
-        width: 50px;
+        width: 30px;
     }
 }
 .card{
@@ -480,8 +522,8 @@ nav{
 }
 @media screen and (max-width:900px) {
     .card{
-        width: 150px;
-        height: 200px;
+        width: 100px;
+        height: 155px;
         padding: 10px;
         margin-top: 5rem;
     }
@@ -493,7 +535,7 @@ nav{
 }
 @media  screen and (max-width:900px) {
     .arb{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         margin-bottom: 0.2rem;
     }
 }
@@ -503,7 +545,7 @@ nav{
 }
 @media screen and (max-width:900px) {
     .interior{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         margin-bottom: 0.2rem;
     }
 }
@@ -513,13 +555,13 @@ nav{
 }
 @media screen and (max-width:900px) {
     .co{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         margin-bottom: 0.2rem;
     }
 }
 @media screen and (max-width:900px) {
     .bnb{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         color: rgba(255, 255, 255, 0.842);
     }
 }
@@ -540,8 +582,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .no-course{
-        font-size: 2.3rem;
+        font-size: 1.5rem;
         width: 650px;
+        margin-top: 2rem;
     }
 }
 
@@ -559,10 +602,7 @@ nav{
 }
 @media screen and (max-width:1000px) {
     .about-section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+        gap: 0.2rem;
     }
 }
 .head-info{
@@ -573,6 +613,7 @@ nav{
 }
 @media screen and (max-width:850px) {
     .head-info{
+        gap: 0.5rem;
         font-size: 0.7rem;
         width: 300px;
     }
@@ -584,11 +625,19 @@ nav{
 }
 @media screen and (max-width:850px) {
     .why{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin-left: 2.3rem;
     }
 }
 .most{
     font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:690px) {
+    .most{
+        font-size: smaller;
+        width: 250px;
+        margin-left: 2.3rem;
+    }
 }
 .flex{
     display: flex;
@@ -601,7 +650,7 @@ nav{
 }
 @media screen and (max-width:850px) {
     .wrong{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 .you{
@@ -612,8 +661,8 @@ nav{
 }
 @media screen and (max-width:850px) {
     .you{
-       font-size: smaller;
-       width: 230px;
+       font-size: 0.7rem;
+       width: 150px;
     }
 }
 .one{
@@ -627,6 +676,14 @@ nav{
     width: 45px;
     font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width:690px) {
+    .one{
+        height: 30px;
+        width: 30px;
+        margin-left: 1.8rem;
+        font-size: smaller;
+    }
+}
 .get{
     margin-top: 2rem;
     padding: 13px 30px;
@@ -635,6 +692,11 @@ nav{
     color: aliceblue;
     border-radius: 15px;
     cursor: pointer;
+}
+@media screen and (max-width:690px) {
+    .get{
+        margin-left: 4rem;
+    }
 }
 .get:hover{
     background-color:rgb(0, 27, 18) ;
@@ -654,8 +716,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .cricle-action{
-        height: 250px;
-        width: 250px;
+        height: 100px;
+        width: 100px;
+        margin-right: 2rem;
     }
 }
 .problem{
@@ -670,8 +733,9 @@ nav{
 }
 @media screen and (max-width:850px) {
     .problem{
-        font-size: 1.4rem;
-        width: 100px;
+        font-size: 0.5rem;
+        width: 40px;
+        padding: 2px;
     }
 }
 .faqs{
@@ -699,6 +763,13 @@ nav{
     font-size: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+@media screen and (max-width:690px) {
+    .heading-faqs{
+        margin-top: 0.5rem;
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+}
 .first{
     padding:19px ;
     padding-right: 100px;
@@ -709,9 +780,11 @@ nav{
 }
 @media screen and (max-width:1100px) {
     .first{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         padding: 10px ;
         padding-right: 90px;
+        width: 190px;
+        margin-left: 1.5rem;
     }
 }
 .group-image{
@@ -721,9 +794,10 @@ nav{
 }
 @media screen and (max-width:1100px) {
     .group-image{
-        height: 600px ;
-        width: 350px;
-        margin-top: 6rem;
+        height: 300px ;
+        width: 150px;
+        /* margin-top: 6rem; */
+        margin-right: 2rem;
     }
 }
 .contact-pagees{
@@ -758,7 +832,7 @@ nav{
 }
 @media screen and (max-width:900px) {
     .talk{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 .join{
@@ -767,13 +841,18 @@ nav{
 }
 @media  screen and (max-width:900px) {
     .join{
-        width: 500px;
+        width: 240px;
+        font-size: 0.6rem;
     }
 }
 .icon-one{
     width: 30px;
 }
-
+@media screen and (max-width:690px) {
+    .icon-one{
+        width: 20px;
+    }
+}
 .main-address{
     display: flex;
     margin-top: 2rem;
@@ -788,6 +867,11 @@ nav{
     color:rgb(2,51,34) ;
     margin-bottom: 0.3rem;
 }
+@media screen and (max-width:690px) {
+    .email-1{
+        font-size: 1rem;
+    }
+}
 .main-email{
     color: rgba(0, 0, 0, 0.836);
     font-family: Arial, Helvetica, sans-serif;
@@ -799,13 +883,17 @@ nav{
     margin-top: 2rem;
     gap: 1rem;
 }
-
 .num{
      font-weight: bolder;
      font-size: 1.3rem;
      font-family: Arial, Helvetica, sans-serif;
      color: rgb(2,51,34);
      margin-bottom: 0.3rem;
+}
+@media screen and (max-width:690px) {
+    .num{
+        font-size: 1rem;
+    }
 }
 .phone-number{
     font-family: Arial, Helvetica, sans-serif;
@@ -849,7 +937,7 @@ nav{
 }
 @media screen and (max-width:900px) {
     .message-g{
-       padding-right: 395px;
+       padding-right: 40px;
     }
 }
 .form{
@@ -859,9 +947,23 @@ nav{
     border-radius: 5px;
     border: 1px solid black;
 }
+.form-1{
+    padding: 15px;
+    text-align: start;
+    padding-right: 190px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+@media screen and (max-width:690px) {
+    .form-1{
+        display: none;
+    }
+}
 @media screen and (max-width:900px) {
     .form{
-       padding-right: 100px;
+       /* padding-right: 40px; */
+       padding: 10px;
+       margin-right: 3rem;
     }
 }
 .buttoons{
@@ -885,8 +987,9 @@ nav{
 }
 @media screen and (max-width:900px) {
     .send-kro{
-       padding-right: 220px;
-       padding-left: 220px;
+       padding-right: 30px;
+       padding-left: 30px;
+       border-radius: 9px ;
     }
 }
 .send-kro:hover{
